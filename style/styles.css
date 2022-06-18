@@ -70,8 +70,8 @@ a {
     }
 
     nav a {
-        padding: 20px;
-        font-size: 20px;
+        padding: auto;
+        font-size: 1rem;
     }
 
     footer a {
