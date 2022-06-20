@@ -62,7 +62,7 @@ a {
 @media (max-width: 800px) {
     nav {
         justify-content: center;
-        padding: 20px 50px 0 20px;
+        padding: 20px 0 0 0px;
     }
 
     nav ul {
@@ -70,12 +70,13 @@ a {
     }
 
     nav a {
-        padding: auto;
-        font-size: 1rem;
+        padding: 16px;
+        font-size: 16px;
     }
 
     footer a {
         padding: 0 20px 20px 20px;
+        text-align: center;
     }
 }
 
@@ -198,7 +199,7 @@ footer a {
     margin-top: 25px;
     display: flex;
     font-weight: 200;
-    justify-content: center;
+    justify-content: right;
     background-color: #595DBE;
     transition: background-color 1s ease;
 }
